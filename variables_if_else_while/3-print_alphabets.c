@@ -1,19 +1,27 @@
 #include <stdio.h>
 
-int main(void)
+/**
+ * main - echo l'alphabet en minuscule puis en majuscule
+ * Return: always 0 (SUCESS)
+ */
 
+int main(void)
 {
-	char alphabet = 'a', ALPHABET = 'A';
-	
+	char alphabet = 'a';
+
 	while (alphabet <= 'z')
 	{
-                putchar(alphabet);
-                alphabet++;
-		if (alphabet = 'z')
-			while (ALPHABET <= 'Z')
-			putchar(ALPHABET);
-                	ALPHABET++;
+		putchar(alphabet);
+		alphabet++;
 	}
-        putchar('\n');
+	char ALPHABET  = 'A';
+
+	while (ALPHABET <= 'Z')
+	{
+		putchar(ALPHABET);
+		ALPHABET++;
+	}
+	putchar('\n');
 return (0);
 }
+
