@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - echo l'alphabet en minuscule mais relou
+ * print_alphabet - echo l'alphabet en minuscule mais relou
  * Return: always 0 (SUCESS)
  */
 
